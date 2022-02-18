@@ -72,11 +72,13 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    border-radius: 10%;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    border-radius: 10%;
 }
 
 /* changed .content to main */
@@ -127,6 +129,11 @@ main section {
 
 main section img {
     max-height: 200px;
+}
+
+.border {
+    background-color: #d9dcd6;  
+    border-radius: 50%;
 }
 
 main section h2 {
